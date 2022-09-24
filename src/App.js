@@ -1,12 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Deck from './components/Deck'
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-        <h1>Portfolio Website</h1>
-      );
-  }
+function App(){
+  return <Deck />;
 }
 
 export default App;

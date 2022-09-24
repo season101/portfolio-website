@@ -1,0 +1,23 @@
+.glass-bg{
+    width: 800px;
+    height: 500px;
+    background-color: red;
+    margin: 80px 0;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 2opx;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-bg h1{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(0,0,0,0.6);
+    
+}
