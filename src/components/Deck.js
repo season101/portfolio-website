@@ -1,17 +1,16 @@
 import React from 'react';
+import NavBar from './NavBar/NavBar';
 import './Deck.css';
 
 function Deck(){
     return (
         <div>
-
             <div class="glass-bg">
-                <h1>Frosted Glass</h1>
+                <NavBar />
+                <div>
+                    <h1>Hello Developers _</h1>
+                </div>
             </div>
-
-            <div class="glass-bg">
-            <h1>Frosted Glass</h1>
-        </div>
 
         </div>
     );
